@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: 'Actor';
+}
+
+.container {
+  text-align: center;
+  margin:auto;
+  width: 50%;
+}
+
+.question {
+  margin: 5px;
+  padding: 7px;
+}
+
+.answer {
+  background-color: rgb(226, 255, 84);
+  padding: 7px;
+}
+
+.link {
+  text-decoration: none;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 4px;
+
+}
